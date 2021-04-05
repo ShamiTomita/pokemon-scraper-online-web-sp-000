@@ -14,6 +14,7 @@ class Pokemon
     if self.id 
       self.update
     else 
+      sql = <<-SQL 
       
   end 
 end
