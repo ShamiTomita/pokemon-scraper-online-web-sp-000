@@ -16,7 +16,7 @@ class Pokemon
       VALUES (?, ?)
       SQL
       
-      DB[:conn].execute
+      DB[:conn].execute(sql, name, type)
   end 
   
   def self.find 
