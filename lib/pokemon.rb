@@ -11,5 +11,9 @@ class Pokemon
   end 
   
   def self.find 
+    if self.id 
+      self.update
+    else 
+      
   end 
 end
