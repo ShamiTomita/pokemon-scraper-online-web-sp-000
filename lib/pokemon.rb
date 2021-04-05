@@ -17,7 +17,7 @@ class Pokemon
       SQL
       
       DB[:conn].execute(sql, self.name, self.type)
-      @id = DB[:conn].execute("SELECT FROM ")
+      @id = DB[:conn].execute("SELECT last_insert_row")
   end 
   
   def self.find 
