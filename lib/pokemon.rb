@@ -8,13 +8,15 @@ class Pokemon
   end 
   
   def save 
-  end 
-  
-  def self.find 
-    if self.id 
+     if self.id 
       self.update
     else 
       sql = <<-SQL 
+      
+  end 
+  
+  def self.find 
+   
       
   end 
 end
