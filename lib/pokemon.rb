@@ -12,7 +12,7 @@ class Pokemon
       self.update
     else 
       sql = <<-SQL 
-      
+      INSERT INTO pokemon
   end 
   
   def self.find 
